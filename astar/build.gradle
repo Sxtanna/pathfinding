@@ -1,2 +1,9 @@
+repositories {
+	maven {
+		url = uri("https://papermc.io/repo/repository/maven-public/")
+	}
+}
 
-
+dependencies {
+	testCompileOnly "org.spigotmc:spigot-api:1.16.1-R0.1-SNAPSHOT"
+}
